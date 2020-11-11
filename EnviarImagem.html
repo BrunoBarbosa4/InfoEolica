@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>Envie sua imagem</title>
+		<link rel="stylesheet" type="text/css" href="css/aps.css">
+		<script type="text/javascript" src="javascript/formulario.js"></script>
+	</head>
+	<body>
+		<nav class="menu">
+			<a href="index.html"><img src="imagens/iconeEolico.png" id="logo"></a>
+			<ul>
+				<li><a href="definicaoEHistoria.html">Definição e História</a></li>
+				<li><a href="producao.html">Produção de energia</a></li>
+				<li><a href="vantagensEdesvantagens.html">Vantagens e Desvantagens</a></li>
+				<li><a href="dados.html">Dados</a></li>
+			</ul>
+		</nav>
+		<br>
+		<div class="conteudo">
+			<form name="formulario" action="enviar.jsp" method="post">
+				<label>Nome: </label>
+				<input type="text" name="nome" id="nome" maxlength="100" size="70">
+				<br><br>
+				<label>Enviar foto</label>
+				<input type="file" name="escolherFoto" id="arquivo">
+				<br>
+				<label>Adicione um comentário a sua foto: </label>
+				<br>
+				<textarea rows="10" cols="138" id="descricaoForm"></textarea>
+				<br>
+				<input type="reset" value="Limpa Questionário" id="resetForm">
+				<input type="submit" value="Envia formulario" onclick="enviar()"><br>
+			</form>
+		</div>
+
+		<footer>
+			<ul>
+				<li><a href="contato.html">Contato</a></li>
+				<li><a href="objetivoDoSite.html">Objetivo do site</a></li>
+				<li><a href="mapaSite.html">Mapa do site</a></li>
+				<li><a href="EnviarImagem.html">Compartilhe sua imagem</a></li>
+			</ul>
+		</footer>
+	</body>
+</html>

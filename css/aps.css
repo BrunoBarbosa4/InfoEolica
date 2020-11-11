@@ -1,0 +1,255 @@
+body {
+	background-color: #324a5eff;
+}
+
+div {
+	overflow: hidden;
+}
+
+a:link {
+	color: inherit;
+	text-decoration: none;
+}
+
+a:visited {
+	color: inherit;
+	text-decoration: none;
+}
+
+h1 {
+	color: #060063;
+	text-align: center;
+}
+
+h2 {
+	color: #040040;
+	margin-left: 80px;
+}
+
+h3 {
+	color: #030033;
+	margin-left: 43px;
+}
+
+p {
+	color: #515162;
+	font-family: verdana, sans-serif, "Lucida Sans Unicode";
+	margin-left: 30px;
+	margin-right: 30px;
+	font-size: 16px;
+}
+
+li {
+	font-family: verdana, sans-serif, "Lucida Sans Unicode";
+	list-style-type: disc;
+	color: #515162;
+}
+
+
+figure {
+	background-color: #F2EDED;
+	border: 1px groove #ccc;
+	text-align: center;
+	padding: 15px;
+	margin-left: 15%;
+	margin-right: 15%;
+}
+
+figcaption {
+	font-family: "Lucida Sans Unicode", sans-serif;
+	font-size: 16px;
+	font-style: italic;
+	margin-top: 10px;
+}
+
+footer {
+	background-color: #1e2d39ff;
+	font-family: verdana,  sans-serif, "Lucida Sans Unicode";
+	float: left;
+	width: 100%;
+	line-height: 5px;
+	margin-top: 1%;
+	border: 3px solid #152029ff;
+}
+
+footer ul li {
+	display: inline-block;
+	color: white;
+	margin-left: 10%;
+}
+
+footer ul li:hover {
+	color: #0eb3e6;
+}
+
+table {
+	background-color: black;
+	margin-left: 30px;
+	margin-right: 30px;
+	font-size: 20px;
+	float: left;
+}
+
+th, td {
+	text-align: center;
+}
+
+form {
+	margin: 50px 100px;
+	padding: 10px;
+	border: 1px solid black;
+}
+
+label {
+	margin-right: 10px;
+}
+
+textarea {
+	resize: none;
+}
+
+.menu {
+	background-color: inherit;
+	float: left;
+	width: 100%;
+	height: 5%;
+	line-height: 30px;
+	margin-bottom: 20px;
+
+	border: 3px groove #486a87ff;
+}
+
+.menu ul li {
+	display: inline-block;
+	color: white;
+	margin-left: 3%;
+	text-align: left;
+	line-height: 40px;
+	font-size: 25px;
+}
+
+.menu ul li:hover {
+	color: #0eb3e6;
+}
+
+.conteudo {
+	background-color: white;
+	width: 90%;
+	height: 80%;
+	margin: auto;
+	margin-top: 61px;
+}
+
+.tabelaTipo1 {
+	background-color: #e3e3e3;
+}
+
+.tabelaTipo2 {
+	background-color: #ededed;
+}
+
+.fotosAntigas {
+	background-color: #F2EDED;
+	border: 1px groove #ccc;
+	text-align: center;
+	padding: 1px;
+	margin-left: 25%;
+	margin-right: 25%;
+}
+
+.grafico {
+	float: left;
+	margin-left: 10px;
+}
+
+#logo {
+	float: left;
+	margin-top: 5px;
+	margin-left: 10px;
+}
+
+#imgVantagens {
+	background-color: white;
+	border: 1px groove #ccc;
+	text-align: center;
+	padding: 15px;
+	margin-left: 15%;
+	margin-right: 15%;
+}
+
+#componentesGerador {
+	float: right;
+	background-color: #FFEFDA;
+	text-align: center;
+	border: 1px groove #ccc;
+	margin: 30px;
+	padding: 0px;
+}
+
+#mapa li {
+	list-style-type: none;
+	margin-left: 20px;
+	margin-bottom: 5px;
+}
+
+#mapa li a:link {
+	color: black;
+}
+
+#mapa li a:visited {
+	color: black;
+}
+
+#resetForm {
+	margin-left: 35%;
+}
+
+#apresentacao {
+	background-color: #e3e3e3;
+	border: 5px inset;
+	margin: 3%;
+	float: left;
+	overflow: hidden;
+	position: relative;
+}
+
+#imagens {
+	float: left;
+	/*border-right: 1px solid black;*/
+
+}
+
+#descricao {
+	background-color: inherit;
+	font-family: sans-serif, "Lucida Sans Unicode";
+	font-size: 20px;
+	float: right;
+	margin: 5px;
+	border: 0 solid;
+}
+
+#btAnterior {
+	position: absolute;
+	z-index: 1;
+	border: 0 none;
+	top: 50%;
+	left: 5%;
+	padding: 0;
+	margin: -15px 0 0 -30px;
+
+	border: 0 none;
+	background-color: #aabbcc00;
+}
+
+#btProximo {
+	position: absolute;
+	z-index: 1;
+	border: 0 none;
+	top: 50%;
+	left: 65%;
+	padding: 0;
+	margin: -15px -30px 0 0 ;
+
+	border: 0px none;
+	background-color: #aabbcc00;
+}
